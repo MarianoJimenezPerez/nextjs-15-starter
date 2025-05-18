@@ -8,11 +8,7 @@ const Providers = ({ children }: { children: ReactNode }) => {
   const [queryClient] = useState(() => new QueryClient());
   return (
     <QueryClientProvider client={queryClient}>
-      <ReactQueryDevtools
-        initialIsOpen={false}
-        position="left"
-        buttonPosition="bottom-left"
-      />
+      <ReactQueryDevtools initialIsOpen={false} />
 
       {children}
     </QueryClientProvider>

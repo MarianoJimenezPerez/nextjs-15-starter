@@ -1,5 +1,5 @@
-import FirstComponent from '@/components/first-component/first-component';
-import SecondComponent from '@/components/second-component/second-component';
+import FirstComponent from '../components/first-component/first-component';
+import SecondComponent from '../components/second-component/second-component';
 
 export default function Home() {
   return (
